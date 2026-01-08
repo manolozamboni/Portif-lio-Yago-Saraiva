@@ -1,0 +1,147 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .home {
+    background: url('pastel-background.jpg') center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(80, 44, 128, 0.692);
+}
+
+.home h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.home p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    text-shadow: 1px 1px 2px #000;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    color: #70009c;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.carrosel {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.carrosel h2 {
+    font-size: 32px;
+    color: #70009c;
+
+    justify-content: center;
+}
+
+.contato {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contato h2 {
+    font-size: 25px;
+    color: #2a006e;
+}
+
+.contato p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #70009c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    height: 80px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #0062d3;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #a200d3;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video video {
+    width: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .video video {
+        width: 100%;
+    }
+}
